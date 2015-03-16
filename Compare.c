@@ -7,5 +7,6 @@ int main()
 	printf("0.1 == 0.1 => %d\n", 0.1 == 0.1);
 	printf("0.1 == 0.1f => %d\n", 0.1 == 0.1f);
 	printf("a(double) == b(float) => %d\n", a == b);
+	printf("a=%.10lf, b=%.10f\n", a, b);
 	return 0;
 }
